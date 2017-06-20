@@ -2,7 +2,7 @@ hexo-theme-yilia
 ================
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](https://cmshome.github.io/) 查看效果。           
  
 如果想体验手机浏览效果，可以扫一下二维码：
 
@@ -79,15 +79,15 @@ git pull
 # Header
 
 menu:
-  主页: /
-  随笔: /tags/随笔/
+  主  页: /
+  时间轴: /archives
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: https://github.com/cmshome
+  #weibo: "/img/sha.jpg"
+  rss: /atom.xml
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -95,7 +95,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: mailto:cmshome@163.com
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -123,7 +123,7 @@ open_in_new: false
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -134,17 +134,30 @@ weixin:
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+#网站图标
+favicon: /img/favicon.ico
 
 #你的头像url
-avatar:
+avatar: /img/me.JPG
 
 #是否开启分享
 share_jia: true
 
-#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
-#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉
+#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+
+#1、多说
 duoshuo: false
+
+#2、网易云跟帖
+wangyiyun: false
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+disqus: false
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -157,7 +170,7 @@ style:
 slider:
   # 是否默认展开tags板块
   showTags: false
-  
+
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
@@ -169,14 +182,14 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
+  沙师弟--kirin: https://kirinhome.github.io/
+  李  总--gourderwa: http://www.gourderwa.com/
   友情链接3: http://localhost:4000/
   友情链接4: http://localhost:4000/
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 大师兄<br><br>屏上得来终觉浅<br>绝知此事要躬行
 ```
 
 
