@@ -75,7 +75,8 @@ git pull
 ## 四、配置
 
 主题配置文件在主目录下的`_config.yml`，请根据自己需要修改使用。
-完整配置例子，可以参考[我的博客备份](https://github.com/litten/BlogBackup)
+完整配置例子，可以参考[我的博客备份](https://github.com/litten/BlogBackup)  
+下面的配置是`师兄我的静态博客所使用的配置`，仅供参考。
 
 ```
 # Header
