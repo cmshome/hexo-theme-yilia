@@ -2,8 +2,9 @@ hexo-theme-yilia
 ================
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](https://cmshome.github.io/) 查看效果。           
- 
+崇尚简约优雅，以及极致的性能。 你可以点击 [原作者的博客](http://litten.me/) 查看效果。  
+也可以点击 [师兄我的博客](https://cmshome.github.io/) 查看效果。
+
 如果想体验手机浏览效果，可以扫一下二维码：
 
 ![litten-qrcode](https://cloud.githubusercontent.com/assets/2024949/6349328/51a067fe-bc64-11e4-881c-f68050c50c28.png)
@@ -34,6 +35,7 @@ Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
 ## 一、外观
 
 ####**常规**
+因为作者没有及时更新动图的原因，你看到的，多少和实际中有点差别。  
 
 ![常规](https://cloud.githubusercontent.com/assets/2024949/19027861/92879edc-8967-11e6-8e60-7987b6507c8d.gif)
 
