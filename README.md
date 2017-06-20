@@ -34,7 +34,7 @@ Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
              
 ## 一、外观
 
-####**常规**
+####**常规**  
 因为作者没有及时更新动图的原因，你看到的，多少和实际中有点差别。  
 
 ![常规](https://cloud.githubusercontent.com/assets/2024949/19027861/92879edc-8967-11e6-8e60-7987b6507c8d.gif)
